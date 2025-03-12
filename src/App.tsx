@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 // import "./App.css";
 
 const pointValues = [0.5, 1.0, 1.5, 2.0, 2.5, 3.0];
-const plateThreshold = 30;
 const STORAGE_KEY = "yamazaki_panmatsuri_points";
 
 const App: React.FC = () => {
